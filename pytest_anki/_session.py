@@ -45,8 +45,8 @@ from typing import (
 
 import anki.collection      # needed to avoid circular import error
 from anki.importing.apkg import AnkiPackageImporter
-from PyQt5.QtCore import QThreadPool, QTimer
-from PyQt5.QtWebEngineWidgets import QWebEngineProfile
+from aqt.qt import QThreadPool, QTimer
+from aqt.qt import QWebEngineProfile
 from selenium import webdriver
 
 from ._addons import ConfigPaths, create_addon_config
