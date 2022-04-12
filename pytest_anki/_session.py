@@ -43,6 +43,7 @@ from typing import (
     Union,
 )
 
+import anki.collection      # needed to avoid circular import error
 from anki.importing.apkg import AnkiPackageImporter
 from PyQt5.QtCore import QThreadPool, QTimer
 from PyQt5.QtWebEngineWidgets import QWebEngineProfile
